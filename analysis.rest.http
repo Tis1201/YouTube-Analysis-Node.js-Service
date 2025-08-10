@@ -1,0 +1,12 @@
+### Analyze YouTube Video - POST Request
+POST http://localhost:3000/analyze
+Content-Type: application/json
+
+{
+  "url": "https://www.youtube.com/watch?v=dqKs4NN_HCE"
+}
+
+
+### Get Analysis Result by ID
+# Note: Replace {analysis-id} with actual ID returned from POST /analyze
+GET http://localhost:3000/result/a1ea37bf-723e-4250-85bc-cd9bf35a8f69
